@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <form action="/predict" method="post">
+            bath: <input type="text" name="bath"><br>
+            balcony: <input type="text" name="balcony"><br>
+            price per square Foot : <input type="text" name="price"><br>
+            total_sqft_int: <input type="text" name="total_sqft_int"><br>
+            bhk: <input type="text" name="bhk"><br>
+            Prediction: {{result}}<br>
+            <input type="submit" value="predict">
+
+        </form>    
+    </body>
+</html>
